@@ -6,7 +6,7 @@ export class TagController {
 
     @Get()
     findAll() {
-      return['dragons', 'coffee'];
+      return this.tagService.findAll();
  }
- 
+  
 }
